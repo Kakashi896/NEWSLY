@@ -27,7 +27,7 @@ const Search = () => {
       <input
         ref={inputRef}
         type="text"
-        className="w-full py-3 px-5 rounded-xl bg-white shadow focus:outline-none focus:ring-2 focus:ring-blue-400 transition placeholder:text-gray-400 text-gray-800 text-base"
+        className="w-full py-3 px-5 focus:outline-none focus:ring-0 focus:border-none shadow-xs shadow-blue-400  transition placeholder:text-gray-400 text-gray-800 text-base"
         placeholder="Search latest tech news..."
         value={input}
         onChange={(e) => setInput(e.target.value)}

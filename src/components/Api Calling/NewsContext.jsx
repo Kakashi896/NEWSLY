@@ -12,7 +12,7 @@ const AppContext = createContext();
 
 const initialState = {
   isLoading : true,
-  query : "html",
+  query : "",
   nbPages : 0,
   page: 0,
   hits : []
